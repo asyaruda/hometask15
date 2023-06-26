@@ -1,39 +1,3 @@
-/*const tableContainer = document.getElementById('multiplication-table')
-
-const table = document.createElement('table')
-table.classList.add('table')
-
-const thead = document.createElement('thead')
-const headerRow = document.createElement('tr')
-
-for (let i = 1; i <= 10; i++) {
-  const th = document.createElement('th')
-  th.textContent = i
-  headerRow.appendChild(th)
-}
-
-thead.appendChild(headerRow)
-table.appendChild(thead)
-
-const tbody = document.createElement('tbody')
-
-for (let i = 1; i <= 10; i++) {
-  const row = document.createElement('tr')
-
-  for (let j = 1; j <= 10; j++) {
-    const cell = document.createElement('td')
-    cell.textContent = i * j
-    row.appendChild(cell)
-  }
-
-  tbody.appendChild(row)
-}
-
-table.appendChild(tbody)
-
-tableContainer.appendChild(table)*/
-
-
 const tableContainer = document.getElementById('multiplication-table')
 
 const table = document.createElement('table')
